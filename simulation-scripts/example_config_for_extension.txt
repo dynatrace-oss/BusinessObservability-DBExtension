@@ -1,0 +1,17 @@
+{
+  "sqlip":"localhost",
+  "sqlusername":"myuser",
+  "sqlpassword":"myhost",
+  "sqldb":"payment",
+  "endpointtopushbizevents":"https://mytenant.live.dynatrace.com/api/v2/bizevents/ingest/",
+  "clientid":"dt0xx.clientid",
+  "clientsecret":"dtxxx.secret",
+  "query1":"select * from payments where transaction_status='PENDING' and transaction_start_time BETWEEN NOW() - INTERVAL 1 HOUR AND NOW() ",
+  "query2":"select * from payments where transaction_status='PENDING' and  transaction_start_time BETWEEN NOW() - INTERVAL 5 HOUR AND NOW() ",
+  "query3":"select * from payments where transaction_status='PENDING' and transaction_start_time BETWEEN NOW() - INTERVAL 1 HOUR AND NOW() ",
+  "interval1":"1",
+  "interval2":"1",
+  "interval3":"1"
+}
+
+
