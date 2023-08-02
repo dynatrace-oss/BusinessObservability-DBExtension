@@ -43,3 +43,4 @@ These events can be visualed using dashboards/DQL or create alerts/workflows usi
 ## 📉 Limitations  
 * The extension is scheduled periodically 1 min and will run the query to collect data at the configured interval and will pull only the data that is available in the database table at that time. So, potentially can miss records in case of race condition.
 * OAuth token is currently limited to keep alive time of only 5 minutes.
+* Will result in potential data loss in case of DB timeouts.
