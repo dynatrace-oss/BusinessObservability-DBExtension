@@ -1,6 +1,9 @@
 # BusinessObservability-DatabaseExtension  
+
 A Dynatrace extension built leveraging [Dynatrace extension framework](https://www.dynatrace.com/support/help/shortlink/activegate-extensions-intro) to pull business observability data from database.  
 ![Extn_overview](images/BusinessObservability-DatabaseExtension-architecture.png)  
+
+Please note that this extension is **not officially** supported and is a **Minimum Viable Product (MVP)**. Its purpose is to demonstrate how to utilize bizevents for extracting data from various sources or the underlying database.
 
 # How does it work?  
 End-user uploads the extension on an activeGate and configure the endpoint. Once configured, extension will retrieve the SQL data and the convert into business observability events. 
