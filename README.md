@@ -1,5 +1,3 @@
-⚠️ **Please note that this extension is not officially supported and is a Minimum Viable Product (MVP). Its purpose is to demonstrate how to utilize bizevents for extracting data from various sources or the underlying database**
-
 # BusinessObservability-DatabaseExtension  
 
 A Dynatrace extension built leveraging [Dynatrace extension framework](https://www.dynatrace.com/support/help/shortlink/activegate-extensions-intro) to pull business observability data from database.  
@@ -44,3 +42,6 @@ These events can be visualed using dashboards/DQL or create alerts/workflows usi
 * The extension is scheduled periodically 1 min and will run the query to collect data at the configured interval and will pull only the data that is available in the database table at that time. So, potentially can miss records in case of race condition.
 * OAuth token is currently limited to keep alive time of only 5 minutes.
 * Will result in potential data loss in case of DB timeouts.
+
+
+⚠️ **Please note that this extension is not officially supported and is a Minimum Viable Product (MVP). Its purpose is to demonstrate how to utilize bizevents for extracting data from various sources or the underlying database**
